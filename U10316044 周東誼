@@ -1,3 +1,5 @@
+package graphic;
+
 import java.awt.event.*;
 import javax.swing.*;
 import java.awt.*;
@@ -10,7 +12,7 @@ public class Graphic{
 		 	
     	JPanel circle = new Circle();
     	JPanel triangle = new Triangle();
-    	JPanel square = new Square();
+    	JPanel square = new Square(); 
 
     	graphic.add(circle,BorderLayout.NORTH);
     	graphic.add(triangle,BorderLayout.CENTER);
